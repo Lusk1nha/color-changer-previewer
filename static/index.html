@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color-changer-previewer</title>
+
+    <link rel="stylesheet" href="./public/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body id="background">
+    <div id="container">
+        <div id="hexadecimal">
+            <h5>HEX</h5>
+                
+            <input class="hexa" name="hexaR" type="text" maxlength="2" placeholder="R">
+            <input class="hexa" name="hexaG" type="text" maxlength="2" placeholder="G">
+            <input class="hexa" name="hexaB" type="text" maxlength="2" placeholder="B">
+        </div>
+
+
+        <div id="rgb">
+            <div id="letters">
+                <h5 class="red">R</h5>
+                <h5 class="green">G</h5>
+                <h5 class="blue">B</h5>
+            </div>
+
+            <input class="RGB" name="R" type="number" placeholder="R">
+            <input class="RGB" name="G" type="number" placeholder="G">
+            <input class="RGB" name="B" type="number" placeholder="B">
+        </div>
+
+        <div id="colorInformation">
+            <h5>current:</h5>
+            <h6 class="currentColorValue">#000000</h6>
+        </div>
+
+        <div id="buttons">
+            <button type="button" id="buttonStart">START</button>
+            <button type="button" id="buttonDefault">DEFAULT</button>
+            <div class="colorInput"></div>
+        </div>
+
+    </div>
+
+    <footer>
+        <h6>Desenvolved by Lucas Pedro</h6>
+    </footer>
+
+
+    <script src="./src/script.js"></script>
+</body>
+</html>

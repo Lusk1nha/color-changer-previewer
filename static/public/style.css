@@ -1,0 +1,230 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 98vw;
+    height: 92vh;
+    
+    background-color: #000000;
+
+    font-family: Archivo;
+
+    transition: background 800ms;
+    
+}
+
+#container {
+    width: 230px;
+    height: 120px;
+
+    background-color: white;
+
+    margin-top: 5px;
+    padding: 10px 20px;
+    
+    border-radius: 6px;
+
+}
+
+#hexadecimal {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 10px;
+
+}
+
+#hexadecimal h5{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+    margin: 0 13px 0 15px;
+
+}
+
+#hexadecimal input,
+#rgb input {
+    width: 29px;
+    height: 15px;
+
+    
+    font-size: 12px;
+    text-align: center;
+    
+    margin: 0 5px;
+    
+    border-radius: 2px;
+    border: 1px solid black;
+    outline: none;
+
+}
+
+#rgb {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 10px;
+
+}
+
+#letters {
+    display: flex;
+
+    margin: 0 12px 0 15px;
+
+}
+
+#letters h5 {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+    margin: 0;
+
+}
+
+#letters .red {
+    color: red;
+
+}
+
+#letters .green {
+    color: green;
+
+}
+
+#letters .blue {
+    color: blue;
+
+}
+
+#rgb input:first-child {
+    margin-left: 0px;
+
+}
+
+#colorInformation {
+    display: flex;
+    align-items: center;
+    
+    height: 20px;
+
+    margin: 0 10px 10px 15px;
+
+}
+
+#colorInformation h5,
+#colorInformation h6 {
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+#colorInformation h6 {
+    margin: 0 0 0 9px;
+
+}
+
+#buttons {
+    display: flex;
+    align-items: center; 
+    
+    margin-left: 15px;
+}
+
+#buttons button {
+    width: 50px;
+    height: 25px;
+
+    background-color: #9824ce;
+
+    font-size: 12px;
+    color: white;
+
+    margin-right: 8px;
+
+    border: none;
+    border-radius: 6px;
+    outline: none;
+
+    transition: background 400ms;
+
+}
+
+#buttons #buttonDefault {
+    width: 70px;
+
+}
+
+#buttons button:hover {
+    background-color:rgb(129, 27, 177);
+
+}
+
+#buttons .colorInput {
+    width: 40px;
+    height: 25px;
+
+    background-color: #000000;
+
+    border-radius: 3px;
+
+    transition: background 800ms;
+
+}
+
+#buttons .colorInput {
+    border-radius: 3px;
+    border: none;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 50px;
+
+    font-family: Roboto;
+    color: white;
+
+    cursor: default;
+
+    animation: example 60s linear infinite;
+    
+}
+
+footer h6 {
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+
+@keyframes example {
+    0%  { color: red; }
+    10% { color: orange; }
+    20% { color: yellow; }
+    30% { color: green; }
+    40% { color: lightblue; }
+    50% { color: blue; }
+    60% { color: purple; }
+    70% { color: pink; }
+    80%  { color: white; }
+    90% { color: black; }
+    100% { color: red; }
+
+}
