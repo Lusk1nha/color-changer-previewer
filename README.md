@@ -10,4 +10,4 @@ A background color changer in RGB and Hexadecimal
 ## Result
 
 > ### See the result live here [codepen.io](https://codepen.io/Luskinha/full/LYZMvPa) 
-[![codepen.io](https://github.com/Lusk1nha/color-changer-previewer/blob/main/img/color-changer.png)](https://codepen.io/Luskinha/full/LYZMvPa)
+[![codepen.io](https://github.com/Lusk1nha/color-changer-previewer/blob/master/img/color-changer.png)](https://codepen.io/Luskinha/full/LYZMvPa)
